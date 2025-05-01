@@ -637,7 +637,7 @@ body {
  }
 
  .work-heading {
-    font-size: 30px;
+    font-size: 28px;
     text-align: center;
     padding-right: 522px;
     /* font-weight: 400;
@@ -1040,6 +1040,31 @@ padding-top: 150px;
     }
 
     .university {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info-work {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info-bottom .info-left {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info-right-left {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info-right-center {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info-right-last {
         display: flex;
         flex-direction: column;
     }
